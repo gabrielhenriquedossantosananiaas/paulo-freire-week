@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+
+.tigre{
+    height: 800px;
+    width: 800px;
+    
+}
+
+
+li a button{
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #000000;
+text-decoration: none;
+}
+
+header{
+    position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 10%;
+font-size: 13px;
+transition: 0.6s;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 999;
+font-family: Poppins;
+height: 65px;
+}
+
+
+header .sticky{
+padding: 5px 100px;
+z-index: 999;
+}
+
+
+header .logo2{
+position: relative;
+font-weight: 700;
+color: #000000;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: o.6s;
+z-index: 999;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+header ul li{
+position: relative;
+list-style: none;
+z-index: 999;
+}
+
+header ul li a{
+position: relative;
+text-decoration: none;
+color: #fff;
+z-index: 999;
+letter-spacing: 2px;
+font-weight: 500px;
+transition: 0.6s;
+}
+
+
+.logo2{
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    z-index: 999;
+    }
+    
+    
+    .nav__links{
+    list-style: none;
+    z-index: 999;
+    }
+    
+    .nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    z-index: 999;
+    }
+    
+    .nav__links li a{
+        transition: all 0.5s ease 0s;
+        text-decoration: none;
+        color: #ffffff;
+position: relative;
+top: 0;
+z-index: 999;
+
+    }
+    
+
+    .nav__links li a:hover{
+    color: #000000;
+   top: -3px;
+   z-index: 999;
+    }
+
+
+nav a span{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+border-bottom: 2px solid rgb(255, 255, 255);
+border-radius: 15px;
+transform: scale(0) translateY(50px);
+opacity: 0;
+transition: .5s;
+}
+
+
+nav a:hover span{
+    transform: scale(1) translateY(0px);
+opacity: 1;
+scale: 1.2;
+background-color: rgb(255, 255, 255,1.1);
+top: -1px;
+
+
+}
+
+
+
+
+    
+    button{
+        font-size: 12px;
+    padding: 9px 25px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    z-index: 999;
+    }
+    
+    button:hover{
+    background-color: rgba(212, 212, 212, 0.8);
+    z-index: 999;
+    }
+
+    hr{
+        border: none;
+        border-top: 2px solid rgb(53, 53, 53);
+    }
+
+    
+header .sticky,
+header.sticky  {
+   
+color: #fff;
+background-color: rgb(0, 0, 0, 1);
+transition: 3s;
+z-index: 999;
+
+font-size: 16px;
+z-index: 999;
+font-family: Poppins;
+height: 85px;
+    }
+
+ 
